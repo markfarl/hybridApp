@@ -1,0 +1,667 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'update' ]
+2 info using npm@3.3.12
+3 info using node@v5.3.0
+4 silly mapToRegistry name mongojs
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry uri https://registry.npmjs.org/mongojs
+8 silly mapToRegistry name morgan
+9 silly mapToRegistry using default registry
+10 silly mapToRegistry registry https://registry.npmjs.org/
+11 silly mapToRegistry uri https://registry.npmjs.org/morgan
+12 silly mapToRegistry name restify
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/restify
+16 silly mapToRegistry name bcrypt
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+20 verbose request uri https://registry.npmjs.org/morgan
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 1:46:06 PM
+23 verbose request id 08f4f7ff25cf9e5a
+24 verbose etag "53ELNO6IW9RAGXUENS222Q8D5"
+25 http request GET https://registry.npmjs.org/morgan
+26 verbose request uri https://registry.npmjs.org/bcrypt
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 1:46:06 PM
+29 verbose etag "4L5AQI73H1K3FL37KI4ILKKIX"
+30 http request GET https://registry.npmjs.org/bcrypt
+31 verbose request uri https://registry.npmjs.org/restify
+32 verbose request no auth needed
+33 info attempt registry request try #1 at 1:46:06 PM
+34 verbose etag "9GYJ7EG1KQTPV0HRGZ2SZCORT"
+35 http request GET https://registry.npmjs.org/restify
+36 verbose request uri https://registry.npmjs.org/mongojs
+37 verbose request no auth needed
+38 info attempt registry request try #1 at 1:46:06 PM
+39 verbose etag "B5WAGZ4L4OX06XVJXICILDH2V"
+40 http request GET https://registry.npmjs.org/mongojs
+41 http 304 https://registry.npmjs.org/mongojs
+42 verbose headers { date: 'Wed, 13 Jan 2016 13:45:57 GMT',
+42 verbose headers   via: '1.1 varnish',
+42 verbose headers   'cache-control': 'max-age=300',
+42 verbose headers   etag: '"B5WAGZ4L4OX06XVJXICILDH2V"',
+42 verbose headers   age: '35',
+42 verbose headers   connection: 'keep-alive',
+42 verbose headers   'x-served-by': 'cache-lhr6328-LHR',
+42 verbose headers   'x-cache': 'HIT',
+42 verbose headers   'x-cache-hits': '1',
+42 verbose headers   'x-timer': 'S1452692757.353903,VS0,VE0',
+42 verbose headers   vary: 'Accept' }
+43 silly get cb [ 304,
+43 silly get   { date: 'Wed, 13 Jan 2016 13:45:57 GMT',
+43 silly get     via: '1.1 varnish',
+43 silly get     'cache-control': 'max-age=300',
+43 silly get     etag: '"B5WAGZ4L4OX06XVJXICILDH2V"',
+43 silly get     age: '35',
+43 silly get     connection: 'keep-alive',
+43 silly get     'x-served-by': 'cache-lhr6328-LHR',
+43 silly get     'x-cache': 'HIT',
+43 silly get     'x-cache-hits': '1',
+43 silly get     'x-timer': 'S1452692757.353903,VS0,VE0',
+43 silly get     vary: 'Accept' } ]
+44 verbose etag https://registry.npmjs.org/mongojs from cache
+45 verbose get saving mongojs to C:\Users\Mark\AppData\Roaming\npm-cache\registry.npmjs.org\mongojs\.cache.json
+46 http 200 https://registry.npmjs.org/bcrypt
+47 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+47 verbose headers   etag: '"9F12RHK8QUXUW4LQM6I4OA962"',
+47 verbose headers   'content-type': 'application/json',
+47 verbose headers   'cache-control': 'max-age=300',
+47 verbose headers   'content-length': '74570',
+47 verbose headers   'accept-ranges': 'bytes',
+47 verbose headers   date: 'Wed, 13 Jan 2016 13:45:57 GMT',
+47 verbose headers   via: '1.1 varnish',
+47 verbose headers   age: '295',
+47 verbose headers   connection: 'keep-alive',
+47 verbose headers   'x-served-by': 'cache-lhr6335-LHR',
+47 verbose headers   'x-cache': 'HIT',
+47 verbose headers   'x-cache-hits': '2',
+47 verbose headers   'x-timer': 'S1452692757.333759,VS0,VE0',
+47 verbose headers   vary: 'Accept' }
+48 silly get cb [ 200,
+48 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+48 silly get     etag: '"9F12RHK8QUXUW4LQM6I4OA962"',
+48 silly get     'content-type': 'application/json',
+48 silly get     'cache-control': 'max-age=300',
+48 silly get     'content-length': '74570',
+48 silly get     'accept-ranges': 'bytes',
+48 silly get     date: 'Wed, 13 Jan 2016 13:45:57 GMT',
+48 silly get     via: '1.1 varnish',
+48 silly get     age: '295',
+48 silly get     connection: 'keep-alive',
+48 silly get     'x-served-by': 'cache-lhr6335-LHR',
+48 silly get     'x-cache': 'HIT',
+48 silly get     'x-cache-hits': '2',
+48 silly get     'x-timer': 'S1452692757.333759,VS0,VE0',
+48 silly get     vary: 'Accept' } ]
+49 verbose get saving bcrypt to C:\Users\Mark\AppData\Roaming\npm-cache\registry.npmjs.org\bcrypt\.cache.json
+50 http 200 https://registry.npmjs.org/morgan
+51 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+51 verbose headers   etag: '"D73URKSC4SCMJAJOP2Z977VYL"',
+51 verbose headers   'content-type': 'application/json',
+51 verbose headers   'cache-control': 'max-age=300',
+51 verbose headers   'content-length': '42886',
+51 verbose headers   'accept-ranges': 'bytes',
+51 verbose headers   date: 'Wed, 13 Jan 2016 13:45:57 GMT',
+51 verbose headers   via: '1.1 varnish',
+51 verbose headers   age: '289',
+51 verbose headers   connection: 'keep-alive',
+51 verbose headers   'x-served-by': 'cache-lhr6334-LHR',
+51 verbose headers   'x-cache': 'HIT',
+51 verbose headers   'x-cache-hits': '6',
+51 verbose headers   'x-timer': 'S1452692757.344022,VS0,VE0',
+51 verbose headers   vary: 'Accept' }
+52 silly get cb [ 200,
+52 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+52 silly get     etag: '"D73URKSC4SCMJAJOP2Z977VYL"',
+52 silly get     'content-type': 'application/json',
+52 silly get     'cache-control': 'max-age=300',
+52 silly get     'content-length': '42886',
+52 silly get     'accept-ranges': 'bytes',
+52 silly get     date: 'Wed, 13 Jan 2016 13:45:57 GMT',
+52 silly get     via: '1.1 varnish',
+52 silly get     age: '289',
+52 silly get     connection: 'keep-alive',
+52 silly get     'x-served-by': 'cache-lhr6334-LHR',
+52 silly get     'x-cache': 'HIT',
+52 silly get     'x-cache-hits': '6',
+52 silly get     'x-timer': 'S1452692757.344022,VS0,VE0',
+52 silly get     vary: 'Accept' } ]
+53 verbose get saving morgan to C:\Users\Mark\AppData\Roaming\npm-cache\registry.npmjs.org\morgan\.cache.json
+54 http 200 https://registry.npmjs.org/restify
+55 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+55 verbose headers   etag: '"4FAIZW0WVS0Q82Z2WITVH5BD9"',
+55 verbose headers   'content-type': 'application/json',
+55 verbose headers   'cache-control': 'max-age=300',
+55 verbose headers   'content-length': '175204',
+55 verbose headers   'accept-ranges': 'bytes',
+55 verbose headers   date: 'Wed, 13 Jan 2016 13:45:57 GMT',
+55 verbose headers   via: '1.1 varnish',
+55 verbose headers   age: '289',
+55 verbose headers   connection: 'keep-alive',
+55 verbose headers   'x-served-by': 'cache-lhr6328-LHR',
+55 verbose headers   'x-cache': 'HIT',
+55 verbose headers   'x-cache-hits': '1',
+55 verbose headers   'x-timer': 'S1452692757.347499,VS0,VE0',
+55 verbose headers   vary: 'Accept' }
+56 silly get cb [ 200,
+56 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+56 silly get     etag: '"4FAIZW0WVS0Q82Z2WITVH5BD9"',
+56 silly get     'content-type': 'application/json',
+56 silly get     'cache-control': 'max-age=300',
+56 silly get     'content-length': '175204',
+56 silly get     'accept-ranges': 'bytes',
+56 silly get     date: 'Wed, 13 Jan 2016 13:45:57 GMT',
+56 silly get     via: '1.1 varnish',
+56 silly get     age: '289',
+56 silly get     connection: 'keep-alive',
+56 silly get     'x-served-by': 'cache-lhr6328-LHR',
+56 silly get     'x-cache': 'HIT',
+56 silly get     'x-cache-hits': '1',
+56 silly get     'x-timer': 'S1452692757.347499,VS0,VE0',
+56 silly get     vary: 'Accept' } ]
+57 verbose get saving restify to C:\Users\Mark\AppData\Roaming\npm-cache\registry.npmjs.org\restify\.cache.json
+58 verbose outdated not updating mongojs because it's currently at the maximum version that matches its specified semver range
+59 verbose outdated not updating restify because it's currently at the maximum version that matches its specified semver range
+60 info outdated updating [ { dep:
+60 info outdated      { package: [Object],
+60 info outdated        path: 'C:\\PROJECTS\\meanTut060116\\hybridApp\\dev\\server',
+60 info outdated        parent: [Object],
+60 info outdated        isMissing: true },
+60 info outdated     depname: 'bcrypt',
+60 info outdated     current: undefined,
+60 info outdated     wanted: '0.7.8',
+60 info outdated     latest: '0.8.5',
+60 info outdated     req: '^0.7.8',
+60 info outdated     what: 'bcrypt@0.7.8' } ]
+61 silly loadCurrentTree Starting
+62 silly install loadCurrentTree
+63 silly install readLocalPackageData
+64 silly fetchPackageMetaData bcrypt@0.7.8
+65 silly fetchNamedPackageData bcrypt
+66 silly mapToRegistry name bcrypt
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npmjs.org/
+69 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+70 verbose get https://registry.npmjs.org/bcrypt not expired, no request
+71 silly install normalizeTree
+72 silly loadCurrentTree Finishing
+73 silly loadIdealTree Starting
+74 silly install loadIdealTree
+75 silly cloneCurrentTree Starting
+76 silly install cloneCurrentTreeToIdealTree
+77 silly cloneCurrentTree Finishing
+78 silly loadShrinkwrap Starting
+79 silly install loadShrinkwrap
+80 silly loadShrinkwrap Finishing
+81 silly loadAllDepsIntoIdealTree Starting
+82 silly install loadAllDepsIntoIdealTree
+83 silly resolveWithNewModule bcrypt@0.7.8 checking installable status
+84 silly cache add args [ 'bcrypt@0.7.8', null ]
+85 verbose cache add spec bcrypt@0.7.8
+86 silly cache add parsed spec Result {
+86 silly cache add   raw: 'bcrypt@0.7.8',
+86 silly cache add   scope: null,
+86 silly cache add   name: 'bcrypt',
+86 silly cache add   rawSpec: '0.7.8',
+86 silly cache add   spec: '0.7.8',
+86 silly cache add   type: 'version' }
+87 silly addNamed bcrypt@0.7.8
+88 verbose addNamed "0.7.8" is a plain semver version for bcrypt
+89 silly mapToRegistry name bcrypt
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry https://registry.npmjs.org/
+92 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+93 verbose addNameVersion registry:https://registry.npmjs.org/bcrypt not in flight; fetching
+94 verbose get https://registry.npmjs.org/bcrypt not expired, no request
+95 silly cache afterAdd bcrypt@0.7.8
+96 verbose afterAdd C:\Users\Mark\AppData\Roaming\npm-cache\bcrypt\0.7.8\package\package.json not in flight; writing
+97 verbose afterAdd C:\Users\Mark\AppData\Roaming\npm-cache\bcrypt\0.7.8\package\package.json written
+98 silly fetchNamedPackageData bindings
+99 silly mapToRegistry name bindings
+100 silly mapToRegistry using default registry
+101 silly mapToRegistry registry https://registry.npmjs.org/
+102 silly mapToRegistry uri https://registry.npmjs.org/bindings
+103 verbose request uri https://registry.npmjs.org/bindings
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 1:46:06 PM
+106 verbose etag "2RXG5K4RRQWEOOFOAOOKVPOZR"
+107 http request GET https://registry.npmjs.org/bindings
+108 http 200 https://registry.npmjs.org/bindings
+109 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+109 verbose headers   etag: '"1LLBF9OH58DLBEL4629U6032D"',
+109 verbose headers   'content-type': 'application/json',
+109 verbose headers   'cache-control': 'max-age=300',
+109 verbose headers   'content-length': '18066',
+109 verbose headers   'accept-ranges': 'bytes',
+109 verbose headers   date: 'Wed, 13 Jan 2016 13:45:57 GMT',
+109 verbose headers   via: '1.1 varnish',
+109 verbose headers   age: '58',
+109 verbose headers   connection: 'keep-alive',
+109 verbose headers   'x-served-by': 'cache-lhr6333-LHR',
+109 verbose headers   'x-cache': 'HIT',
+109 verbose headers   'x-cache-hits': '3',
+109 verbose headers   'x-timer': 'S1452692757.838726,VS0,VE0',
+109 verbose headers   vary: 'Accept' }
+110 silly get cb [ 200,
+110 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+110 silly get     etag: '"1LLBF9OH58DLBEL4629U6032D"',
+110 silly get     'content-type': 'application/json',
+110 silly get     'cache-control': 'max-age=300',
+110 silly get     'content-length': '18066',
+110 silly get     'accept-ranges': 'bytes',
+110 silly get     date: 'Wed, 13 Jan 2016 13:45:57 GMT',
+110 silly get     via: '1.1 varnish',
+110 silly get     age: '58',
+110 silly get     connection: 'keep-alive',
+110 silly get     'x-served-by': 'cache-lhr6333-LHR',
+110 silly get     'x-cache': 'HIT',
+110 silly get     'x-cache-hits': '3',
+110 silly get     'x-timer': 'S1452692757.838726,VS0,VE0',
+110 silly get     vary: 'Accept' } ]
+111 verbose get saving bindings to C:\Users\Mark\AppData\Roaming\npm-cache\registry.npmjs.org\bindings\.cache.json
+112 silly resolveWithNewModule bindings@1.0.0 checking installable status
+113 silly cache add args [ 'bindings@1.0.0', null ]
+114 verbose cache add spec bindings@1.0.0
+115 silly cache add parsed spec Result {
+115 silly cache add   raw: 'bindings@1.0.0',
+115 silly cache add   scope: null,
+115 silly cache add   name: 'bindings',
+115 silly cache add   rawSpec: '1.0.0',
+115 silly cache add   spec: '1.0.0',
+115 silly cache add   type: 'version' }
+116 silly addNamed bindings@1.0.0
+117 verbose addNamed "1.0.0" is a plain semver version for bindings
+118 silly mapToRegistry name bindings
+119 silly mapToRegistry using default registry
+120 silly mapToRegistry registry https://registry.npmjs.org/
+121 silly mapToRegistry uri https://registry.npmjs.org/bindings
+122 verbose addNameVersion registry:https://registry.npmjs.org/bindings not in flight; fetching
+123 verbose get https://registry.npmjs.org/bindings not expired, no request
+124 silly cache afterAdd bindings@1.0.0
+125 verbose afterAdd C:\Users\Mark\AppData\Roaming\npm-cache\bindings\1.0.0\package\package.json not in flight; writing
+126 verbose afterAdd C:\Users\Mark\AppData\Roaming\npm-cache\bindings\1.0.0\package\package.json written
+127 silly loadAllDepsIntoIdealTree Finishing
+128 silly idealTree:prePrune server@1.0.0
+128 silly idealTree:prePrune ├── asn1@0.1.11
+128 silly idealTree:prePrune ├── assert-plus@0.1.5
+128 silly idealTree:prePrune ├── backoff@2.4.1
+128 silly idealTree:prePrune ├── balanced-match@0.3.0
+128 silly idealTree:prePrune ├── basic-auth@1.0.3
+128 silly idealTree:prePrune ├── bcrypt@0.7.8
+128 silly idealTree:prePrune ├── bcryptjs@2.3.0
+128 silly idealTree:prePrune ├── bindings@1.0.0
+128 silly idealTree:prePrune ├── brace-expansion@1.1.2
+128 silly idealTree:prePrune ├── bson@0.2.9
+128 silly idealTree:prePrune ├─┬ bunyan@1.5.1
+128 silly idealTree:prePrune │ ├── dtrace-provider@0.6.0
+128 silly idealTree:prePrune │ └── nan@2.1.0
+128 silly idealTree:prePrune ├── concat-map@0.0.1
+128 silly idealTree:prePrune ├── core-util-is@1.0.2
+128 silly idealTree:prePrune ├── csv-generate@0.0.6
+128 silly idealTree:prePrune ├── csv-parse@1.0.1
+128 silly idealTree:prePrune ├── csv-stringify@0.0.8
+128 silly idealTree:prePrune ├── csv@0.4.6
+128 silly idealTree:prePrune ├── ctype@0.5.3
+128 silly idealTree:prePrune ├── debug@2.2.0
+128 silly idealTree:prePrune ├── deep-equal@0.2.2
+128 silly idealTree:prePrune ├── depd@1.0.1
+128 silly idealTree:prePrune ├─┬ dtrace-provider@0.3.2
+128 silly idealTree:prePrune │ └── nan@1.3.0
+128 silly idealTree:prePrune ├── ee-first@1.1.1
+128 silly idealTree:prePrune ├── escape-regexp-component@1.0.2
+128 silly idealTree:prePrune ├── extsprintf@1.2.0
+128 silly idealTree:prePrune ├── formidable@1.0.17
+128 silly idealTree:prePrune ├── glob@6.0.3
+128 silly idealTree:prePrune ├── http-signature@0.10.1
+128 silly idealTree:prePrune ├── inflight@1.0.4
+128 silly idealTree:prePrune ├── inherits@2.0.1
+128 silly idealTree:prePrune ├── isarray@0.0.1
+128 silly idealTree:prePrune ├── keep-alive-agent@0.0.1
+128 silly idealTree:prePrune ├── kerberos@0.0.3
+128 silly idealTree:prePrune ├── lru-cache@2.7.3
+128 silly idealTree:prePrune ├── mime@1.3.4
+128 silly idealTree:prePrune ├── minimatch@3.0.0
+128 silly idealTree:prePrune ├── minimist@0.0.8
+128 silly idealTree:prePrune ├── mkdirp@0.5.1
+128 silly idealTree:prePrune ├─┬ mongodb@1.4.7
+128 silly idealTree:prePrune │ └── readable-stream@2.0.5
+128 silly idealTree:prePrune ├── mongojs@0.13.1
+128 silly idealTree:prePrune ├── morgan@1.6.1
+128 silly idealTree:prePrune ├── ms@0.7.1
+128 silly idealTree:prePrune ├── mv@2.1.1
+128 silly idealTree:prePrune ├── nan@1.0.0
+128 silly idealTree:prePrune ├── ncp@2.0.0
+128 silly idealTree:prePrune ├── negotiator@0.4.9
+128 silly idealTree:prePrune ├── node-uuid@1.4.7
+128 silly idealTree:prePrune ├── on-finished@2.3.0
+128 silly idealTree:prePrune ├── on-headers@1.0.1
+128 silly idealTree:prePrune ├── once@1.3.3
+128 silly idealTree:prePrune ├── path-is-absolute@1.0.0
+128 silly idealTree:prePrune ├── precond@0.2.3
+128 silly idealTree:prePrune ├── process-nextick-args@1.0.6
+128 silly idealTree:prePrune ├── qs@1.2.2
+128 silly idealTree:prePrune ├── readable-stream@1.1.13
+128 silly idealTree:prePrune ├── restify@2.8.5
+128 silly idealTree:prePrune ├── rimraf@2.4.5
+128 silly idealTree:prePrune ├── safe-json-stringify@1.0.3
+128 silly idealTree:prePrune ├── semver@2.3.2
+128 silly idealTree:prePrune ├── spdy@1.32.5
+128 silly idealTree:prePrune ├── stream-transform@0.1.1
+128 silly idealTree:prePrune ├── string_decoder@0.10.31
+128 silly idealTree:prePrune ├── thunky@0.1.0
+128 silly idealTree:prePrune ├── tunnel-agent@0.4.2
+128 silly idealTree:prePrune ├── util-deprecate@1.0.2
+128 silly idealTree:prePrune ├── verror@1.6.0
+128 silly idealTree:prePrune └── wrappy@1.0.1
+129 silly loadIdealTree Finishing
+130 silly currentTree server@1.0.0
+130 silly currentTree ├── asn1@0.1.11
+130 silly currentTree ├── assert-plus@0.1.5
+130 silly currentTree ├── backoff@2.4.1
+130 silly currentTree ├── balanced-match@0.3.0
+130 silly currentTree ├── basic-auth@1.0.3
+130 silly currentTree ├── bcryptjs@2.3.0
+130 silly currentTree ├── brace-expansion@1.1.2
+130 silly currentTree ├── bson@0.2.9
+130 silly currentTree ├─┬ bunyan@1.5.1
+130 silly currentTree │ ├── dtrace-provider@0.6.0
+130 silly currentTree │ └── nan@2.1.0
+130 silly currentTree ├── concat-map@0.0.1
+130 silly currentTree ├── core-util-is@1.0.2
+130 silly currentTree ├── csv-generate@0.0.6
+130 silly currentTree ├── csv-parse@1.0.1
+130 silly currentTree ├── csv-stringify@0.0.8
+130 silly currentTree ├── csv@0.4.6
+130 silly currentTree ├── ctype@0.5.3
+130 silly currentTree ├── debug@2.2.0
+130 silly currentTree ├── deep-equal@0.2.2
+130 silly currentTree ├── depd@1.0.1
+130 silly currentTree ├─┬ dtrace-provider@0.3.2
+130 silly currentTree │ └── nan@1.3.0
+130 silly currentTree ├── ee-first@1.1.1
+130 silly currentTree ├── escape-regexp-component@1.0.2
+130 silly currentTree ├── extsprintf@1.2.0
+130 silly currentTree ├── formidable@1.0.17
+130 silly currentTree ├── glob@6.0.3
+130 silly currentTree ├── http-signature@0.10.1
+130 silly currentTree ├── inflight@1.0.4
+130 silly currentTree ├── inherits@2.0.1
+130 silly currentTree ├── isarray@0.0.1
+130 silly currentTree ├── keep-alive-agent@0.0.1
+130 silly currentTree ├── kerberos@0.0.3
+130 silly currentTree ├── lru-cache@2.7.3
+130 silly currentTree ├── mime@1.3.4
+130 silly currentTree ├── minimatch@3.0.0
+130 silly currentTree ├── minimist@0.0.8
+130 silly currentTree ├── mkdirp@0.5.1
+130 silly currentTree ├─┬ mongodb@1.4.7
+130 silly currentTree │ └── readable-stream@2.0.5
+130 silly currentTree ├── mongojs@0.13.1
+130 silly currentTree ├── morgan@1.6.1
+130 silly currentTree ├── ms@0.7.1
+130 silly currentTree ├── mv@2.1.1
+130 silly currentTree ├── nan@1.0.0
+130 silly currentTree ├── ncp@2.0.0
+130 silly currentTree ├── negotiator@0.4.9
+130 silly currentTree ├── node-uuid@1.4.7
+130 silly currentTree ├── on-finished@2.3.0
+130 silly currentTree ├── on-headers@1.0.1
+130 silly currentTree ├── once@1.3.3
+130 silly currentTree ├── path-is-absolute@1.0.0
+130 silly currentTree ├── precond@0.2.3
+130 silly currentTree ├── process-nextick-args@1.0.6
+130 silly currentTree ├── qs@1.2.2
+130 silly currentTree ├── readable-stream@1.1.13
+130 silly currentTree ├── restify@2.8.5
+130 silly currentTree ├── rimraf@2.4.5
+130 silly currentTree ├── safe-json-stringify@1.0.3
+130 silly currentTree ├── semver@2.3.2
+130 silly currentTree ├── spdy@1.32.5
+130 silly currentTree ├── stream-transform@0.1.1
+130 silly currentTree ├── string_decoder@0.10.31
+130 silly currentTree ├── thunky@0.1.0
+130 silly currentTree ├── tunnel-agent@0.4.2
+130 silly currentTree ├── util-deprecate@1.0.2
+130 silly currentTree ├── verror@1.6.0
+130 silly currentTree └── wrappy@1.0.1
+131 silly idealTree server@1.0.0
+131 silly idealTree ├── asn1@0.1.11
+131 silly idealTree ├── assert-plus@0.1.5
+131 silly idealTree ├── backoff@2.4.1
+131 silly idealTree ├── balanced-match@0.3.0
+131 silly idealTree ├── basic-auth@1.0.3
+131 silly idealTree ├── bcrypt@0.7.8
+131 silly idealTree ├── bcryptjs@2.3.0
+131 silly idealTree ├── bindings@1.0.0
+131 silly idealTree ├── brace-expansion@1.1.2
+131 silly idealTree ├── bson@0.2.9
+131 silly idealTree ├─┬ bunyan@1.5.1
+131 silly idealTree │ ├── dtrace-provider@0.6.0
+131 silly idealTree │ └── nan@2.1.0
+131 silly idealTree ├── concat-map@0.0.1
+131 silly idealTree ├── core-util-is@1.0.2
+131 silly idealTree ├── csv-generate@0.0.6
+131 silly idealTree ├── csv-parse@1.0.1
+131 silly idealTree ├── csv-stringify@0.0.8
+131 silly idealTree ├── csv@0.4.6
+131 silly idealTree ├── ctype@0.5.3
+131 silly idealTree ├── debug@2.2.0
+131 silly idealTree ├── deep-equal@0.2.2
+131 silly idealTree ├── depd@1.0.1
+131 silly idealTree ├─┬ dtrace-provider@0.3.2
+131 silly idealTree │ └── nan@1.3.0
+131 silly idealTree ├── ee-first@1.1.1
+131 silly idealTree ├── escape-regexp-component@1.0.2
+131 silly idealTree ├── extsprintf@1.2.0
+131 silly idealTree ├── formidable@1.0.17
+131 silly idealTree ├── glob@6.0.3
+131 silly idealTree ├── http-signature@0.10.1
+131 silly idealTree ├── inflight@1.0.4
+131 silly idealTree ├── inherits@2.0.1
+131 silly idealTree ├── isarray@0.0.1
+131 silly idealTree ├── keep-alive-agent@0.0.1
+131 silly idealTree ├── kerberos@0.0.3
+131 silly idealTree ├── lru-cache@2.7.3
+131 silly idealTree ├── mime@1.3.4
+131 silly idealTree ├── minimatch@3.0.0
+131 silly idealTree ├── minimist@0.0.8
+131 silly idealTree ├── mkdirp@0.5.1
+131 silly idealTree ├─┬ mongodb@1.4.7
+131 silly idealTree │ └── readable-stream@2.0.5
+131 silly idealTree ├── mongojs@0.13.1
+131 silly idealTree ├── morgan@1.6.1
+131 silly idealTree ├── ms@0.7.1
+131 silly idealTree ├── mv@2.1.1
+131 silly idealTree ├── nan@1.0.0
+131 silly idealTree ├── ncp@2.0.0
+131 silly idealTree ├── negotiator@0.4.9
+131 silly idealTree ├── node-uuid@1.4.7
+131 silly idealTree ├── on-finished@2.3.0
+131 silly idealTree ├── on-headers@1.0.1
+131 silly idealTree ├── once@1.3.3
+131 silly idealTree ├── path-is-absolute@1.0.0
+131 silly idealTree ├── precond@0.2.3
+131 silly idealTree ├── process-nextick-args@1.0.6
+131 silly idealTree ├── qs@1.2.2
+131 silly idealTree ├── readable-stream@1.1.13
+131 silly idealTree ├── restify@2.8.5
+131 silly idealTree ├── rimraf@2.4.5
+131 silly idealTree ├── safe-json-stringify@1.0.3
+131 silly idealTree ├── semver@2.3.2
+131 silly idealTree ├── spdy@1.32.5
+131 silly idealTree ├── stream-transform@0.1.1
+131 silly idealTree ├── string_decoder@0.10.31
+131 silly idealTree ├── thunky@0.1.0
+131 silly idealTree ├── tunnel-agent@0.4.2
+131 silly idealTree ├── util-deprecate@1.0.2
+131 silly idealTree ├── verror@1.6.0
+131 silly idealTree └── wrappy@1.0.1
+132 silly generateActionsToTake Starting
+133 silly install generateActionsToTake
+134 silly generateActionsToTake Finishing
+135 silly diffTrees action count 2
+136 silly diffTrees add bindings@1.0.0
+137 silly diffTrees add bcrypt@0.7.8
+138 silly decomposeActions action count 16
+139 silly decomposeActions fetch bindings@1.0.0
+140 silly decomposeActions extract bindings@1.0.0
+141 silly decomposeActions preinstall bindings@1.0.0
+142 silly decomposeActions build bindings@1.0.0
+143 silly decomposeActions install bindings@1.0.0
+144 silly decomposeActions postinstall bindings@1.0.0
+145 silly decomposeActions test bindings@1.0.0
+146 silly decomposeActions finalize bindings@1.0.0
+147 silly decomposeActions fetch bcrypt@0.7.8
+148 silly decomposeActions extract bcrypt@0.7.8
+149 silly decomposeActions preinstall bcrypt@0.7.8
+150 silly decomposeActions build bcrypt@0.7.8
+151 silly decomposeActions install bcrypt@0.7.8
+152 silly decomposeActions postinstall bcrypt@0.7.8
+153 silly decomposeActions test bcrypt@0.7.8
+154 silly decomposeActions finalize bcrypt@0.7.8
+155 silly executeActions Starting
+156 silly install executeActions
+157 silly doSerial global-install 0
+158 silly doParallel fetch 2
+159 verbose lock using C:\Users\Mark\AppData\Roaming\npm-cache\_locks\staging-a48c72873db98c3e.lock for C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\.staging
+160 silly doParallel extract 2
+161 silly extract bindings@1.0.0
+162 silly extract bcrypt@0.7.8
+163 verbose unbuild node_modules\.staging\bindings-9818b4f49600d224d7e4f957caff248f
+164 verbose unbuild node_modules\.staging\bcrypt-537852147d605efbc62c61e77281f7d9
+165 silly gentlyRm C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\.staging\bindings-9818b4f49600d224d7e4f957caff248f is being purged from base C:\PROJECTS\meanTut060116\hybridApp\dev\server
+166 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\.staging\bindings-9818b4f49600d224d7e4f957caff248f
+167 silly gentlyRm C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\.staging\bcrypt-537852147d605efbc62c61e77281f7d9 is being purged from base C:\PROJECTS\meanTut060116\hybridApp\dev\server
+168 verbose tar unpack C:\Users\Mark\AppData\Roaming\npm-cache\bindings\1.0.0\package.tgz
+169 verbose tar unpacking to C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\.staging\bindings-9818b4f49600d224d7e4f957caff248f
+170 silly gentlyRm C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\.staging\bindings-9818b4f49600d224d7e4f957caff248f is being purged
+171 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\.staging\bcrypt-537852147d605efbc62c61e77281f7d9
+172 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\.staging\bindings-9818b4f49600d224d7e4f957caff248f
+173 verbose tar unpack C:\Users\Mark\AppData\Roaming\npm-cache\bcrypt\0.7.8\package.tgz
+174 verbose tar unpacking to C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\.staging\bcrypt-537852147d605efbc62c61e77281f7d9
+175 silly gentlyRm C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\.staging\bcrypt-537852147d605efbc62c61e77281f7d9 is being purged
+176 silly gunzTarPerm modes [ '777', '666' ]
+177 verbose gentlyRm don't care about contents; nuking C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\.staging\bcrypt-537852147d605efbc62c61e77281f7d9
+178 silly gunzTarPerm modes [ '777', '666' ]
+179 silly gunzTarPerm extractEntry package.json
+180 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+181 silly gunzTarPerm extractEntry package.json
+182 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+183 silly gunzTarPerm extractEntry README.md
+184 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+185 silly gunzTarPerm extractEntry bindings.js
+186 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
+187 silly gunzTarPerm extractEntry .npmignore
+188 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+189 silly gunzTarPerm extractEntry README.md
+190 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+191 silly gunzTarPerm extractEntry LICENSE
+192 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+193 silly gunzTarPerm extractEntry bcrypt.js
+194 silly gunzTarPerm modified mode [ 'bcrypt.js', 420, 438 ]
+195 silly gunzTarPerm extractEntry Makefile
+196 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+197 silly gunzTarPerm extractEntry .travis.yml
+198 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+199 silly gunzTarPerm extractEntry binding.gyp
+200 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+201 silly gunzTarPerm extractEntry examples/async_compare.js
+202 silly gunzTarPerm modified mode [ 'examples/async_compare.js', 420, 438 ]
+203 silly gunzTarPerm extractEntry examples/forever_gen_salt.js
+204 silly gunzTarPerm modified mode [ 'examples/forever_gen_salt.js', 420, 438 ]
+205 silly gunzTarPerm extractEntry CHANGELOG
+206 silly gunzTarPerm modified mode [ 'CHANGELOG', 420, 438 ]
+207 silly gunzTarPerm extractEntry src/bcrypt.cc
+208 silly gunzTarPerm modified mode [ 'src/bcrypt.cc', 420, 438 ]
+209 silly gunzTarPerm extractEntry src/bcrypt_node.cc
+210 silly gunzTarPerm modified mode [ 'src/bcrypt_node.cc', 420, 438 ]
+211 silly gunzTarPerm extractEntry src/blowfish.cc
+212 silly gunzTarPerm modified mode [ 'src/blowfish.cc', 420, 438 ]
+213 silly gunzTarPerm extractEntry src/node_blf.h
+214 silly gunzTarPerm modified mode [ 'src/node_blf.h', 420, 438 ]
+215 silly gunzTarPerm extractEntry test/async.js
+216 silly gunzTarPerm modified mode [ 'test/async.js', 420, 438 ]
+217 silly gunzTarPerm extractEntry test/repetitions.js
+218 silly gunzTarPerm modified mode [ 'test/repetitions.js', 420, 438 ]
+219 silly gunzTarPerm extractEntry test/sync.js
+220 silly gunzTarPerm modified mode [ 'test/sync.js', 420, 438 ]
+221 silly doParallel preinstall 2
+222 silly preinstall bindings@1.0.0 C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\.staging\bindings-9818b4f49600d224d7e4f957caff248f
+223 info lifecycle bindings@1.0.0~preinstall: bindings@1.0.0
+224 silly preinstall bcrypt@0.7.8 C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\.staging\bcrypt-537852147d605efbc62c61e77281f7d9
+225 info lifecycle bcrypt@0.7.8~preinstall: bcrypt@0.7.8
+226 silly lifecycle bindings@1.0.0~preinstall: no script for preinstall, continuing
+227 silly lifecycle bcrypt@0.7.8~preinstall: no script for preinstall, continuing
+228 silly doReverseSerial remove 0
+229 silly doSerial move 0
+230 silly doSerial finalize 2
+231 silly finalize C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\bindings
+232 silly finalize C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\bcrypt
+233 silly doSerial build 2
+234 silly build bindings@1.0.0
+235 info linkStuff bindings@1.0.0
+236 silly linkStuff bindings@1.0.0 has C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules as its parent node_modules
+237 verbose linkBins bindings@1.0.0
+238 verbose linkMans bindings@1.0.0
+239 silly build bcrypt@0.7.8
+240 info linkStuff bcrypt@0.7.8
+241 silly linkStuff bcrypt@0.7.8 has C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules as its parent node_modules
+242 verbose linkBins bcrypt@0.7.8
+243 verbose linkMans bcrypt@0.7.8
+244 silly doSerial global-link 0
+245 silly doParallel update-linked 0
+246 silly doSerial install 2
+247 silly install bindings@1.0.0 C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\.staging\bindings-9818b4f49600d224d7e4f957caff248f
+248 info lifecycle bindings@1.0.0~install: bindings@1.0.0
+249 silly lifecycle bindings@1.0.0~install: no script for install, continuing
+250 silly install bcrypt@0.7.8 C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\.staging\bcrypt-537852147d605efbc62c61e77281f7d9
+251 info lifecycle bcrypt@0.7.8~install: bcrypt@0.7.8
+252 verbose lifecycle bcrypt@0.7.8~install: unsafe-perm in lifecycle true
+253 verbose lifecycle bcrypt@0.7.8~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\bcrypt\node_modules\.bin;C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\cURL\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Python27;;C:\Program Files\Docker Toolbox;C:\Program Files (x86)\Android\android-sdk\tools;C:\Program Files (x86)\Android\android-sdk\build-tools;C:\Users\Mark\AppData\Roaming\npm
+254 verbose lifecycle bcrypt@0.7.8~install: CWD: C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\bcrypt
+255 silly lifecycle bcrypt@0.7.8~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+256 silly lifecycle bcrypt@0.7.8~install: Returned: code: 1  signal: null
+257 info lifecycle bcrypt@0.7.8~install: Failed to exec install script
+258 verbose unlock done using C:\Users\Mark\AppData\Roaming\npm-cache\_locks\staging-a48c72873db98c3e.lock for C:\PROJECTS\meanTut060116\hybridApp\dev\server\node_modules\.staging
+259 silly rollbackFailedOptional Starting
+260 silly rollbackFailedOptional Finishing
+261 silly runTopLevelLifecycles Starting
+262 silly runTopLevelLifecycles Finishing
+263 silly install printInstalled
+264 warn EPACKAGEJSON server@1.0.0 No description
+265 warn EPACKAGEJSON server@1.0.0 No repository field.
+266 verbose stack Error: bcrypt@0.7.8 install: `node-gyp rebuild`
+266 verbose stack Exit status 1
+266 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:232:16)
+266 verbose stack     at emitTwo (events.js:87:13)
+266 verbose stack     at EventEmitter.emit (events.js:172:7)
+266 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+266 verbose stack     at emitTwo (events.js:87:13)
+266 verbose stack     at ChildProcess.emit (events.js:172:7)
+266 verbose stack     at maybeClose (internal/child_process.js:818:16)
+266 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+267 verbose pkgid bcrypt@0.7.8
+268 verbose cwd C:\PROJECTS\meanTut060116\hybridApp\dev\server
+269 error Windows_NT 10.0.10586
+270 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "update"
+271 error node v5.3.0
+272 error npm  v3.3.12
+273 error code ELIFECYCLE
+274 error bcrypt@0.7.8 install: `node-gyp rebuild`
+274 error Exit status 1
+275 error Failed at the bcrypt@0.7.8 install script 'node-gyp rebuild'.
+275 error Make sure you have the latest version of node.js and npm installed.
+275 error If you do, this is most likely a problem with the bcrypt package,
+275 error not with npm itself.
+275 error Tell the author that this fails on your system:
+275 error     node-gyp rebuild
+275 error You can get their info via:
+275 error     npm owner ls bcrypt
+275 error There is likely additional logging output above.
+276 verbose exit [ 1, true ]
