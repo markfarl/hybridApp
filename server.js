@@ -19,7 +19,7 @@ server.use(function(req, res, next) {
     next();
 });
 
-server.listen(process.env.PORT || 9804, function () {
+server.listen(process.env.PORT || 8080, function () {
     console.log("Server started @ ",process.env.PORT || 9804);
 });
 
