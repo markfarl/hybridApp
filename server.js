@@ -19,8 +19,8 @@ server.use(function(req, res, next) {
     next();
 });
 
-server.listen(process.env.PORT || 3000, function () {
-    console.log("Server started @ ",process.env.PORT || 3000);
+server.listen(process.env.PORT || 8080, function () {
+    console.log("Server started @ ",process.env.PORT || 8080);
 });
 
 var manageUsers =   require('./auth/manageUser')(server, db);
